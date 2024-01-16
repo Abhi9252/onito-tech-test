@@ -1,13 +1,15 @@
 import React from 'react'
+import "./LandingPage.css"
 
 const LandingPage: React.FC = () => {
     return (
-        <div>
-            <h1>Welcome to My React App!</h1>
-            <p>This is a simple landing page for your React application.</p>
+        <div className='main-container'>
+            <div className='content'>
+                <h1>Welcome to Onito Technologies</h1>
+                <p>Start your career with just one step...</p>
+            </div>
         </div>
     );
-
 }
 
 export default LandingPage
